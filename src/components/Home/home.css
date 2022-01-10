@@ -1,0 +1,64 @@
+.mainHomeProfileContainer {
+  object-fit: cover;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  /* background-image: url(/public/assests/thanviWall1.jpeg); */
+  background-image: url(/public/assests/work/09.jpg);
+}
+.homeTittleContainer {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: serif;
+}
+.mainImageContainer {
+  height: 257px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2px;
+  justify-content: center;
+}
+.phoneNumberContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.middleServiceContainer {
+  height: 259px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2px;
+  justify-content: center;
+}
+.mainCitiesContainer {
+  height: 259px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.serviceContainer {
+  font-size: 19px;
+  color: #ffff;
+  width: 253px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #ffff;
+  font-weight: 500;
+  font-family: serif;
+}
+.servicesTextContainer {
+  font-size: 42px;
+  color: #ffff;
+  font-weight: 400;
+  font-family: serif;
+}

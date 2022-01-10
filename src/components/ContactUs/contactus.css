@@ -1,0 +1,13 @@
+.MainContact {
+  height: 10px;
+}
+.gridmainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactustitle {
+  font-size: 40px;
+  font-weight: 600;
+  height: 26px;
+}

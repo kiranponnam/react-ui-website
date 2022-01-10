@@ -1,0 +1,16 @@
+.navbarMainContainer {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mainHeaderContainer {
+  text-decoration: none;
+  color: #ffff;
+}
+.headerbtnActive{
+  /* color: #A9A9A9; */
+  color: #ccc;
+  text-decoration: none;
+}
