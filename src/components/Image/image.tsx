@@ -2,13 +2,19 @@ import { useState, useEffect } from "react";
 import ImageViewer from "../Work/ImageViewer/imageViewer";
 
 const images = [
-  "/assests/slideShowImages/croppedImage2.jpg",
+  "/assests/LatestMarriagePics/marriagePic1.jpg",
+  "/assests/LatestMarriagePics/marriagePic2.jpg",
+  "/assests/LatestMarriagePics/marriagePic5.jpg",
+  "/assests/LatestMarriagePics/marriagePic6.jpg",
+  "/assests/LatestMarriagePics/marriagePic7.jpg",
+  "/assests/LatestMarriagePics/marriagePic8.jpg",
   "/assests/work/10.jpg",
   "/assests/work/02.jpg",
   "/assests/thanvi/than2.jpg",
   "/assests/thanvi/than3.jpg",
   "/assests/thanvi/than4.jpg",
   "/assests/thanviWall.jpeg",
+  "/assests/slideShowImages/croppedImage2.jpg",
 ];
 
 export default function ImageSwapper() {
@@ -39,11 +45,20 @@ export default function ImageSwapper() {
     setImageViewerOpen(true);
     setImageViewerURL(data);
   };
+  const userScreenWidth =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
   return (
     <div>
       <img
-        style={{
+        style={userScreenWidth < 650 ? {
           width: "100%",
+          height: "255px",
+          borderRadius: "15px",
+          objectFit: "cover",
+        } : {
+          width: "40%",
           height: "255px",
           borderRadius: "15px",
           objectFit: "cover",
